@@ -25,7 +25,7 @@
 ### **Planning**
 ## [drawio](https://app.diagrams.net/#G1pXyOnlHoqxqscjacaj7nNhHVFx1cBNpY)
 ## [Trello](https://trello.com/b/TNQw9OrH/otr-fleet-network-solutions)
-## [Wireframe] (https://wireframe.cc/a2KwMN)
+## [wireframe] (https://wireframe.cc/a2KwMN)
 ***
 ### ***Credits***
 ##
