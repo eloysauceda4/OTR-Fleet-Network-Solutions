@@ -44,7 +44,7 @@ const Main = () => {
         value1={searchQuery}
         value2={searchValue}
     />
-    <h2>Search Results</h2>
+    <h2>Fleet Maintenance Providers</h2>
     <section className="searchResults">
         {searching && searchResults.map((result) => (
             <Link to={`companies/${result._id}`}>

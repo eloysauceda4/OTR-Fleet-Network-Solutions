@@ -3,6 +3,7 @@
   margin-left: 40px;
   margin-bottom: 0px;
   margin-top: 0px;
+  color: black;
 }
 
 .About > h1 {
@@ -18,20 +19,22 @@
 .AppMain {
   min-height: calc(100vh - 88px);
   font-family: 'Source Sans Pro', sans-serif;
- 
+  
+/* background-image: url('https://res.cloudinary.com/ryder/image/upload/v1550243560/Ryder/Ryder-Blog/Hero/Post/Truck%20maintenance%20hoodBIG.jpg');
+background-size: cover;  */
 }
-
 
 
 
 .App > div:nth-child(1) {                   /*Header*/
   background: darkred;
-  height: 500px;
+  height: 55px;
   border-bottom: 4px solid black;
 }
 
 .App > div:nth-child(1) > span {            /*Title*/
-  color: whitesmoke;
+  color: black;
+  font-weight: bolder;
   font-size: 25px;
   position: absolute;
   left: 5px;
@@ -40,47 +43,47 @@
 }
 
 .App > div:nth-child(1) > a:nth-child(2) {  /*Home Button*/
-  margin: 0 100px 0 10px;
+  margin: 0 150px 0 10px;
   text-decoration: none;
-  color: white;
+  color: black;
   position: absolute;
   right: 100px;
   top: 20px;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: bold;
   
 }
 
 .App > div:nth-child(1) > a:nth-child(3) {  /*About Button*/
-  margin: 0 10px 0 20px;
+  margin: 0 1px 0 20px;
   text-decoration: none;
-  color: white;
+  color: black;
   position: absolute;
   right: 25px;
   top: 20px;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: bold;
 }
 
 .App > div:nth-child(1) > a:nth-child(4) {  /*Contact Button*/
-  margin: 0 100px 0 20px;
+  margin: 0 155px 0 20px;
   text-decoration: none;
-  color: white;
+  color: black;
   position: absolute;
   right: 25px;
   top: 20px;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: bold;
 }
 
 .App > div:nth-child(1) > a:nth-child(5) {  /*Services Button*/
   margin: 0 50px 0 20px;
   text-decoration: none;
-  color: white;
+  color: black;
   position: absolute;
   right: 25px;
   top: 20px;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: bold;
 }
 
@@ -193,6 +196,33 @@ form > input::placeholder::cue(click) {
 }
 
 #root > div > div.AppMain > div > section > a > div > img {
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
+  border: 5px solid black;
+}
+
+h3 {
+  display: block;
+  color: black;
+  font-weight: bolder;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+p {
+  display: block;
+  color: black;
+  font-weight: bolder;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+img {
+  background-position: cover;
 }
