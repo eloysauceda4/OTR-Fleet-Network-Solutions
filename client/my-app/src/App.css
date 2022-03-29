@@ -26,9 +26,8 @@
 
 .App > div:nth-child(1) {                   /*Header*/
   background: darkred;
-  height: 50px;
+  height: 500px;
   border-bottom: 4px solid black;
-  
 }
 
 .App > div:nth-child(1) > span {            /*Title*/
