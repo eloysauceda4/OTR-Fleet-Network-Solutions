@@ -36,17 +36,27 @@ const Main = () => {
 
     return (
         <div>
+        
+    <SearchBar 
+        onSubmit1={getSearchResults}
+        onChange={handleChange}
+        onCheck={handleValue}
+        value1={searchQuery}
+        value2={searchValue}
+    />
+    <h2>Search Results</h2>
+    <section className="searchResults">
+        {searching && searchResults.map((result) => (
+            <Link to={`companies/${result._id}`}>
+            <CompaniesCard key={result._id} name={result.name}  img={result.image} location={result.location} />
+            </Link>
+        ))}
        
-        <h2>Search Results</h2>
-        <section className="searchResults">
-            {searching && searchResults.map((result) => (
-                <Link to={`companies/${result._id}`}>
-                <CompaniesCard key={result._id} name={result.name}  img={result.image} location={result.location} />
-                </Link>
-            ))}
+    </section>
+    </div>
             
-        </section>
-        </div>
+        
+    
     )
 }
 
