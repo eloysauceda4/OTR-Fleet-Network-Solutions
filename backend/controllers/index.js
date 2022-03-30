@@ -38,7 +38,7 @@ const getServicesById = async (req, res) => {
         const {id} = req.params;
         const companies = await Services.findById(id)
         if (companies) {
-            return res.status(200).json({ rides });
+            return res.status(200).json({ companies });
         }
         return res.status(404).send('Services with the specified ID does not exists');
     } catch (error) {
