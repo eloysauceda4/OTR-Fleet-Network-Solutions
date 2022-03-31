@@ -8,6 +8,7 @@ const Nav = () => {
         <div>
             <span className='title'>
                 OTR Fleet Network Solutions  
+               
             </span>
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>

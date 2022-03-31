@@ -27,8 +27,8 @@ background-size: cover;  */
 
 
 .App > div:nth-child(1) {                   /*Header*/
-  background: darkred;
-  height: 55px;
+  background: grey;
+  height: 100px;
   border-bottom: 4px solid black;
 }
 
@@ -162,7 +162,7 @@ button:active {
 
 .Footer {
   background: rgb(0,0,0);
-  background: darkred;
+  background: grey;
   border-top: 2px solid black;  
   height: 34px;
   position: relative;
@@ -173,6 +173,7 @@ button:active {
 .searchResults {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  
 }
 
 form > input {
@@ -226,3 +227,4 @@ p {
 img {
   background-position: cover;
 }
+

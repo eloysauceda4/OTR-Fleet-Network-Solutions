@@ -7,7 +7,7 @@ import About from './components/About.js'
 import React, { useState } from 'react'
 import Services from './components/Services'
 import Contact from './components/Contact'
-
+import ServicesCard from './components/ServicesCard';
 
 function App() {
   
@@ -23,6 +23,7 @@ function App() {
         <Route path='about' element={<About />} />
         <Route path='/contact' element={<Contact />}/>
         <Route path='/services' element={<Services />}/>
+        <Route path='/companies/:id' element={<Main />} />
       </Routes> 
       </div>
     <Footer />
