@@ -64,7 +64,7 @@ const Main = () => {
     <ServicesCard key={result._id} title={result.title} description={result.description} area={result.area}/>
 </Link>
     )}
-    
+       <img src="/images/dreamstime_xxl_222487088-1-scaled-1.webp" alt=""/>
     </div>
             
         
